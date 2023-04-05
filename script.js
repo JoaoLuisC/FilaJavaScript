@@ -66,16 +66,15 @@
 
     let i = 0;
 
-    for (let [key, item] of Object.entries(minhaFila.itens)) { // para cada elemento da fila
+    for (let item of minhaFila.itens)) { // VER TODOS OS ELEMENTOS DA FILA
         atendimento.cpf = cpf;
         i++;
-        console.log(i);
-        if (item.equals(atendimento)) {   // para cada elemento da fila, verificar com o equals
+        if (item.equals(atendimento)) {   // VERIFICAR CADA ELEMENTO DA FILA COM EQUALS
             alert("Achou! Posição: " + i);
             return;
         }
     }
-    alert("CPF não encontrado!"); // se nao encontrar mostre mensagem
+    alert("CPF não encontrado!"); // CASO NÃO ENCONTRAR
 }
 //--------------------------------------------------------------------------------------------
 function mostrarMensagemRemocao(pessoaAtendida) {
@@ -88,7 +87,7 @@ function mostrarMensagemRemocao(pessoaAtendida) {
  function mostrarFila() {
 
     const filaElemento = document.getElementById("listPessoasFila");
-    filaElemento.textContent = minhaFila.toString();
+    filaElemento.textContent = minhaFila.toString();      //CONVERTE EM STRING
     filaElemento.innerHTML = "";
  
     let i = 0;
@@ -96,10 +95,8 @@ function mostrarMensagemRemocao(pessoaAtendida) {
     for (let item of minhaFila.itens) {
        i++;
        const itemElement = document.createElement("ul");
-       itemElement.classList.add("fila-item");
        itemElement.innerText = item.toString();
        filaElemento.appendChild(itemElement);
- 
     }
  
     if (i == 0) {
