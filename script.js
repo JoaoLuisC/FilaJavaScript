@@ -66,7 +66,7 @@
 
     let i = 0;
 
-    for (let item of minhaFila.itens)) { // VER TODOS OS ELEMENTOS DA FILA
+    for (let item of minhaFila.itens) { // VER TODOS OS ELEMENTOS DA FILA
         atendimento.cpf = cpf;
         i++;
         if (item.equals(atendimento)) {   // VERIFICAR CADA ELEMENTO DA FILA COM EQUALS
