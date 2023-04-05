@@ -13,7 +13,7 @@
 </ul>
 <br>
 
-![imagemFilaJs](https://user-images.githubusercontent.com/103074041/230057600-e8756627-ebaf-4cac-8257-42823ae1551c.png)
+![imgFilaJS](https://user-images.githubusercontent.com/103074041/230058019-6d4ce130-fea7-4f55-825b-74eba3ca3efe.png)
 
 <h1><b>Tecnologias Utilizadas</b></h1>
 <ul>
